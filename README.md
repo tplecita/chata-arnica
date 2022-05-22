@@ -8,7 +8,7 @@ Udělejte si **fork** tohoto repozitáře a naklonujte si ho k sobě. Přesuňte
 
 Ve složce uvidíte několik souborů. Kromě složek s obrázky a ikonkami jsou tu soubory
 - `index.html` - tady je html struktura projektu, není potřeba nijak upravovat, pouze si ji prohlédněte a všímejte si, jaké třídy jsou na jakých elementech. Část v html je zakomentovaná, ta je připravená pro bonusový úkol.
-- `style.css` - tady jsou před připravené styly a sem také bude psát své styly
+- `style.css` - tady jsou připravené styly. Styly **nepřepisujte**, pouze přidávejte své styly podle zadání
 - `index.js` - tento soubor je připravený na bonusový úkol
 - `toggle-switch.css` - tento soubor je připravený na bonusový úkol
 
@@ -32,10 +32,10 @@ a používají se takto:
 V projektu děláme responzivní webovou stránku, proto začínáme stylovat mobile first.  
 Tipy pro práci na projektu:
 - Nic nepřepisujte ani nepřidávejte do HTML, mohlo by vás to zmást. Není potřeba si přidávat další třídy nebo id. 
-- Při stylování používejte pouze třídy (kromě základnáho stylování `body`). Není potřeba používat kombinátory selektorů, píšeme ploché CSS
+- Při stylování používejte pouze selektory třídy (kromě stylování elementu `body`). Není potřeba používat kombinátory selektorů, píšeme ploché CSS
 - Při stylování pište první styly pro mobil. V souboru je pište **nad** media queries pro desktop!
 - Aktivně používejte devtools, styly si zkoušejte a kontrolujte si, že stylujete správný element 
-- Při stylování na mobil se v devtools dívejte na šířku stránky cca 400 - 500px, 
+- Při stylování na mobil se v devtools dívejte na šířku displeje mobilu (cca 360px - 500px), při stylování šiřších displejů potom na odpovídající šířky 
 
 #### Google fonts
 Všimněte si, že v hlavičce souboru html jsou kromě `style.css` nalikované další styly. Tyto jsou stažené z fontů google. V projektu používáme tyto fonty: Alegreya Sans, Lora a Dawning of a New Day. Dokážete je najít v odkazu na google fonts? 
@@ -49,7 +49,7 @@ Všimněte si, že v hlavičce souboru html jsou kromě `style.css` nalikované 
 - Nastavte font hlavního nadpisu (`.pitch`) na `'Lora', serif`. Text vycentrujte. 
 
 ### Barva pozadí 
-- Nastavte barvu pozadí `--background-secondary` na hlavičku, sekci s úvodním nadpisem, sekci cenové nabídky a na patičku.
+- Nastavte barvu pozadí `--background-secondary` na hlavičku, sekci s hlavním nadpisem, sekci cenové nabídky a na patičku.
 - Nastavte barvu pozadí `--background-primary` na sekci s úvodním textem a sekci s recenzí. 
 
 ### Přidání obrázku 
@@ -58,12 +58,12 @@ Všimněte si, že v hlavičce souboru html jsou kromě `style.css` nalikované 
 - Obrázek vycentrujte a nastavte, aby pokrýval celou velikost elementu. Budou se vám k tomu hodit vlastnosti `background-size` a `background-cover`.
 
 ### Layout elementů
-- Prvky v hlavičce (`.page-header`) - logo a navigaci - nastylujte tak, že budou vedle sebe, vertikálně vycentrované a na horizonální ose budou na opačných koncích. 
+- Prvky v hlavičce - logo a navigaci - nastylujte tak, že budou vedle sebe, vertikálně vycentrované a na horizonální ose budou na opačných koncích. 
 - Nastavte maximální šířku úvodního textu (`.subheading-content`) na 800 pixelů a text vycentrujte. 
-- Jednotlivé cenové nabídky (`.offer`) budou mít šířku 80% rodiče, ale maximálně mohou dosahovat šířky 270px.
+- Jednotlivé cenové nabídky budou mít šířku 80% rodiče, ale maximálně mohou dosahovat šířky 270px.
 
 ### Recenze 
-- Font textu recenze nastavte na _oblique_. 
+- Styl fontu recenze nastavte na _oblique_. 
 - Na text recenze dejte 2px silný rámeček barvy `--background-secondary`. 
 
 ## Stylování nad 800px šířky
@@ -72,6 +72,7 @@ Dovnitř této media query přidejte stylování:
 
 ### Cenové nabídky 
 - Nastylujte cenové nabídky, tak aby byly vedle sebe, vertikálně zarovnané a byla mezi nimi mezera 3rem. 
+  - všimněte si, že na obalovém prvku cenových nabídek už je display flex. Není potřeba ho tedy přidávat, pouze upravit flex vlastnosti
 - Jednotlivé cenové nabídky budou mít šířku 220px.
 
 ### Recenze 
@@ -96,7 +97,8 @@ V bonusovém úkolu si zprovozníme překlikávání light a dark módu na strá
   -  `--background-secondary: #476462;`
   -  `--text: #e1e1e1;` 
 - V `index.html` si odkomentujte prvek `theme-switch-wrapper` a jeho obsah.  
-- Do souboru `index.html` si napojte soubor `toggle-switch.css`a `index.js`. Nezapomeňte na typ `module`.
+- Do souboru `index.html` si napojte soubor `toggle-switch.css`. Soubor si projděte a všimněte si použití 
+- `index.js`. Nezapomeňte na typ `module`.
 - V souboru `index.js` je odkaz na webovou stránku, která popisuje, jak funguje přepínání mezi light a dark modem. Stránku si pročtěte. 
 - Pročtěte si `index.js` a okomentujte, co se děje v kódu. 
 - Vyzkoušejte si, že přepínání funguje. 
