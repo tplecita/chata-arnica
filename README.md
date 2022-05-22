@@ -1,5 +1,5 @@
 # Chata Arnica
-V tomto cvičení si zkusíme nastylovat předpřipravenou stránku fiktivního ubytování chata Arnica. Finální výsledek bude vypadat takto: 
+V tomto cvičení si zkusíme nastylovat předpřipravenou stránku fiktivního ubytování chata Arnica. 
 
 ![Arnica výsledek](./result/chata-arnica-result.gif)
 
