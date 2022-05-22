@@ -1,7 +1,7 @@
 # Chata Arnica
 V tomto cvičení si zkusíme nastylovat předpřipravenou stránku fiktivního ubytování chata Arnica. Finální výsledek bude vypadat takto: 
 
-![Arnica výsledek]("/result/arnica.result.gif")
+![Arnica výsledek](./result/arnica-result.gif)
 
 ## Seznámení se s projektem
 Udělejte si **fork** tohoto repozitáře a naklonujte si ho k sobě. Přesuňte se do správně složky a pomocí `npx serve` si projekt spusťte.    
