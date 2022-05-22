@@ -1,6 +1,6 @@
 /* CSS VARIABLES */
 
-html {
+:root {
   --background-primary: #f3f3f3;
   --background-secondary: #cdddda;
   --text: #1f2403;
@@ -78,7 +78,7 @@ span {
   background-image: url('./images/arnica-intro.jpg');
 }
 
-/* CENOVÉ NABÍDKY */
+/* CENOVÁ NABÍDKA */
 
 .pricelist {
   padding: 2.5rem 1.5rem;
