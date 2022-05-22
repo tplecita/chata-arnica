@@ -97,7 +97,7 @@ V bonusovém úkolu si zprovozníme překlikávání light a dark módu na strá
   -  `--background-secondary: #476462;`
   -  `--text: #e1e1e1;` 
 - V `index.html` si odkomentujte prvek `theme-switch-wrapper` a jeho obsah.  
-- Do souboru `index.html` si napojte soubor `toggle-switch.css`. Soubor si projděte a všimněte si použití 
+- Do souboru `index.html` si napojte soubor `toggle-switch.css`. Soubor si projděte a všimněte si použití pseudoelementu `:before`
 - `index.js`. Nezapomeňte na typ `module`.
 - V souboru `index.js` je odkaz na webovou stránku, která popisuje, jak funguje přepínání mezi light a dark modem. Stránku si pročtěte. 
 - Pročtěte si `index.js` a okomentujte, co se děje v kódu. 
