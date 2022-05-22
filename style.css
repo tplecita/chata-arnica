@@ -72,12 +72,6 @@ span {
   margin: 0 auto;
 }
 
-/* OBRÁZEK CHATY */
-
-.intro-image {
-  background-image: url('./images/arnica-intro.jpg');
-}
-
 /* CENOVÁ NABÍDKA */
 
 .pricelist {
@@ -226,5 +220,5 @@ span {
     padding: 1.5rem;
   }
 
-  /* TADY PIŠTE STYLY PRO DESKTOP */
+  /* TADY PIŠTE STYLY PRO ŠÍŘKU NAD 800PX */
 }
